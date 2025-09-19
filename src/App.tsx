@@ -107,7 +107,7 @@ function App() {
             <div className="hidden md:block">
               <button
                 onClick={scrollToForm}
-                className="bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white px-8 py-3 rounded-xl font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white px-10 py-4 rounded-xl text-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 Book Free Strategy Call
               </button>
@@ -173,10 +173,10 @@ function App() {
 
           <button
             onClick={scrollToForm}
-            className="bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white px-12 py-5 rounded-2xl text-xl font-black transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25 group"
+            className="bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white px-20 py-12 rounded-3xl text-4xl font-black transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25 group"
           >
             Book Free Strategy Call
-            <ArrowRight className="inline-block ml-3 transition-transform duration-300 group-hover:translate-x-1" size={24} />
+            <ArrowRight className="inline-block ml-6 transition-transform duration-300 group-hover:translate-x-1" size={40} />
           </button>
 
           <div className="mt-16">
